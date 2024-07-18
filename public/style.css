@@ -1,0 +1,21 @@
+h1{
+    color:rgb(246, 237, 237);
+
+}
+body{
+    background-color: black;
+}
+.post{
+    background-color: rgb(255, 253, 251);
+}
+.user{
+    font-style: italic;
+}
+a{
+    color: rgb(28, 26, 26);
+    /* text-decoration: none; */
+}
+.me{
+    color: rgb(251, 247, 247);
+    /* text-decoration: none; */
+}

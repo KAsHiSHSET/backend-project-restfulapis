@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edtt post</title>
+</head>
+<body>
+    <h2>Edit your post</h2>
+    <p>post id:<%=post.id%></p>
+    <p>post username:<%=post.username%></p>
+    <form method="post" action="/posts/<%=post.id%>?_method=PATCH">
+        <textarea rows="10" col="10" name="content" ><%=post.content%></textarea>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
